@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletosAnfir", "BoletosAnfir\BoletosAnfir.csproj", "{28D0C314-6F74-4A1F-8F43-F80A3270565B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletosAnfir.Business", "BoletosAnfir.Business\BoletosAnfir.Business.csproj", "{FEB8D1E9-2D42-4832-98B4-1395553BA0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletosAnfir.Data", "BoletosAnfir.Data\BoletosAnfir.Data.csproj", "{F45332B7-BEBE-4B18-ACDC-7024F63C7D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletosAnfir.Model", "BoletosAnfir.Model\BoletosAnfir.Model.csproj", "{F4011189-87DE-481C-83D3-41205FF8B97E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boleto.Net", "Boleto.Net\Boleto.Net.csproj", "{F173E80B-E36B-48AD-B483-A27F8CA86F3C}"
 EndProject
 Global
@@ -17,6 +23,18 @@ Global
 		{28D0C314-6F74-4A1F-8F43-F80A3270565B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28D0C314-6F74-4A1F-8F43-F80A3270565B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28D0C314-6F74-4A1F-8F43-F80A3270565B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB8D1E9-2D42-4832-98B4-1395553BA0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB8D1E9-2D42-4832-98B4-1395553BA0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB8D1E9-2D42-4832-98B4-1395553BA0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB8D1E9-2D42-4832-98B4-1395553BA0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45332B7-BEBE-4B18-ACDC-7024F63C7D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45332B7-BEBE-4B18-ACDC-7024F63C7D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45332B7-BEBE-4B18-ACDC-7024F63C7D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45332B7-BEBE-4B18-ACDC-7024F63C7D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4011189-87DE-481C-83D3-41205FF8B97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4011189-87DE-481C-83D3-41205FF8B97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4011189-87DE-481C-83D3-41205FF8B97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4011189-87DE-481C-83D3-41205FF8B97E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F173E80B-E36B-48AD-B483-A27F8CA86F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F173E80B-E36B-48AD-B483-A27F8CA86F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F173E80B-E36B-48AD-B483-A27F8CA86F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
