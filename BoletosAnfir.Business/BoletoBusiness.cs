@@ -25,14 +25,16 @@ namespace BoletosAnfir.Business
                     if (boletoAnfir.situacao == "E")
                     {
                         var boletoBancoDoBrasilBusiness = new BoletoBancoDoBrasilBusiness();
-                        var html = boletoBancoDoBrasilBusiness.GeraHtmlBoleto(boletoAnfir);
+                        var dadosCedente = new DadosCedente();
+                        var html = boletoBancoDoBrasilBusiness.GeraHtmlBoleto(boletoAnfir, dadosCedente);
                         var stream = ConvertePdf(html, boletoAnfir);
                         return stream;
                     }
                     else if (boletoAnfir.situacao == "A")
                     {
                         var boletoBradescoBusiness = new BoletoBradescoBusiness();
-                        var html = boletoBradescoBusiness.GeraHtmlBoleto(boletoAnfir);
+                        var dadosCedente = new DadosCedente();
+                        var html = boletoBradescoBusiness.GeraHtmlBoleto(boletoAnfir, dadosCedente);
                         var stream = ConvertePdf(html, boletoAnfir);
                         return stream;
                     }

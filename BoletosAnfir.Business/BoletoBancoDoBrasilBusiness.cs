@@ -10,7 +10,7 @@ namespace BoletosAnfir.Business
 {
     public class BoletoBancoDoBrasilBusiness
     {
-        public string GeraHtmlBoleto(BoletoAnfir boleto)
+        public string GeraHtmlBoleto(BoletoAnfir boleto, DadosCedente dadosCedente)
         {
             DateTime vencimento = DateTime.Now.AddDays(5);
 
