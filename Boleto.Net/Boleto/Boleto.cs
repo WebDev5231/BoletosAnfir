@@ -84,18 +84,6 @@ namespace BoletoNet
 		{
 		}
 
-		public Boleto(DateTime dataVencimento, decimal valorBoleto, string carteira, string nossoNumero, Cedente cedente, IEspecieDocumento especieDocumento)
-		{
-			this._carteira = carteira;
-			this._nossoNumero = nossoNumero;
-			this._dataVencimento = dataVencimento;
-			this._valorBoleto = valorBoleto;
-			this._valorCobrado = this.ValorCobrado;
-			this._cedente = cedente;
-
-			this._especieDocumento = especieDocumento;
-		}
-
 		public Boleto(decimal valorBoleto, string carteira, string nossoNumero, Cedente cedente)
 		{
 			this._carteira = carteira;
