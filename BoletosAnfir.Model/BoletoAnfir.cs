@@ -25,6 +25,7 @@ namespace BoletosAnfir.Model
         public DateTime Data_Doc { get; set; }
     }
     public class DadosCedenteBradesco
+    public class DadosCedente
     {
         public string Empresa { get; set; } = "ASSOC. NAC. DOS FAB. DE IMP. RODOVIÁRIOS";
         public string CNPJ { get; set; } = "90.773.102/0001-32";

@@ -11,7 +11,9 @@ namespace BoletosAnfir.Business
 {
     public class BoletoBancoDoBrasilBusiness
     {
+
         public string GeraHtmlBoleto(BoletoAnfir boleto, DadosCedenteBB dadosCedente)
+        public string GeraHtmlBoleto(BoletoAnfir boleto, DadosCedente dadosCedente)
         {
             var boletoBancario = new BoletoBancario();
             boletoBancario.CodigoBanco = 001;
