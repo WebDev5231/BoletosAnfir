@@ -12,6 +12,7 @@ namespace BoletosAnfir.Business
     public class BoletoBradescoBusiness
     {
         public string GeraHtmlBoleto(BoletoAnfir boleto, DadosCedenteBradesco dadosCedente)
+        public string GeraHtmlBoleto(BoletoAnfir boleto, DadosCedente dadosCedente)
         {
             var boletoBancario = new BoletoBancario();
             boletoBancario.CodigoBanco = 237;
