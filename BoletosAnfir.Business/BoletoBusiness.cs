@@ -26,7 +26,6 @@ namespace BoletosAnfir.Business
                     {
                         var boletoBancoDoBrasilBusiness = new BoletoBancoDoBrasilBusiness();
                         var dadosCedente = new DadosCedenteBB();
-                        var dadosCedente = new DadosCedente();
                         var html = boletoBancoDoBrasilBusiness.GeraHtmlBoleto(boletoAnfir, dadosCedente);
                         var stream = ConvertePdf(html, boletoAnfir);
                         return stream;
@@ -35,7 +34,6 @@ namespace BoletosAnfir.Business
                     {
                         var boletoBradescoBusiness = new BoletoBradescoBusiness();
                         var dadosCedente = new DadosCedenteBradesco();
-                        var dadosCedente = new DadosCedente();
                         var html = boletoBradescoBusiness.GeraHtmlBoleto(boletoAnfir, dadosCedente);
                         var stream = ConvertePdf(html, boletoAnfir);
                         return stream;
