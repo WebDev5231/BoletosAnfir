@@ -1647,7 +1647,8 @@ namespace BoletoNet
                     _segmentoQ += "2";
 
                 var enderecoSacadoComNumero = boleto.Sacado.Endereco.End;
-                if (!string.IsNullOrEmpty(boleto.Sacado.Endereco.Numero)) {
+                if (!string.IsNullOrEmpty(boleto.Sacado.Endereco.Numero))
+                {
                     enderecoSacadoComNumero += ", " + boleto.Sacado.Endereco.Numero;
                 }
 
@@ -1712,7 +1713,7 @@ namespace BoletoNet
                     // Desconto 3
                     _segmentoR += "000000000000000000000000"; //24 zeros
                 }
-                    
+
 
                 if (boleto.PercMulta > 0)
                 {
